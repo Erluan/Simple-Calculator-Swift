@@ -10,34 +10,30 @@ import XCTest
 
 class CalculatorAppTests: XCTestCase {
     
-    func test_SubtractTwoNumbers() {
-        let calculator = Calculator()
-        let result = calculator.subtract(5, 2)
+    private var calculator: Calculator!
+    
+    override func setUp() {
+        super.setUp()
         
+        self.calculator = Calculator()
+    }
+    
+    func test_SubtractTwoNumbers() {
+        
+        let result = self.calculator.subtract(5, 2)
         XCTAssertEqual(result, 3)
+        
     }
     
     func test_AddTwoNumbers(){
         
-        let calculator = Calculator()
-        let result = calculator.add(2, 3)
-        
+        let result = self.calculator.add(2, 3)
         XCTAssertEqual(result, 5)
+        
     }
-
-//    override func setUpWithError() throws {
-//    }
-//
-//    override func tearDownWithError() throws {
-//    }
-//
-//    func testExample() throws {
-//    }
-//
-//    func testPerformanceExample() throws {
-//        self.measure {
-//
-//        }
-//    }
+    
+    override func tearDown() {
+        super.tearDown()
+    }
 
 }

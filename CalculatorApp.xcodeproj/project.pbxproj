@@ -16,6 +16,7 @@
 		1A62DC9927D1467600564866 /* CalculatorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62DC9827D1467600564866 /* CalculatorAppTests.swift */; };
 		1A62DCA327D1467600564866 /* CalculatorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62DCA227D1467600564866 /* CalculatorAppUITests.swift */; };
 		1A62DCA527D1467600564866 /* CalculatorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62DCA427D1467600564866 /* CalculatorAppUITestsLaunchTests.swift */; };
+		1A6366CE27D6C43F00903EC7 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6366CD27D6C43F00903EC7 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1A62DC9E27D1467600564866 /* CalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A62DCA227D1467600564866 /* CalculatorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorAppUITests.swift; sourceTree = "<group>"; };
 		1A62DCA427D1467600564866 /* CalculatorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A6366CD27D6C43F00903EC7 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				1A62DC8A27D1467500564866 /* Assets.xcassets */,
 				1A62DC8C27D1467500564866 /* LaunchScreen.storyboard */,
 				1A62DC8F27D1467500564866 /* Info.plist */,
+				1A6366CD27D6C43F00903EC7 /* Calculator.swift */,
 			);
 			path = CalculatorApp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A62DC8627D1467300564866 /* ViewController.swift in Sources */,
+				1A6366CE27D6C43F00903EC7 /* Calculator.swift in Sources */,
 				1A62DC8227D1467300564866 /* AppDelegate.swift in Sources */,
 				1A62DC8427D1467300564866 /* SceneDelegate.swift in Sources */,
 			);
@@ -452,7 +456,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = erluan.CalculatorApp;
+				PRODUCT_BUNDLE_IDENTIFIER = erluan.CalculatorApp.erluan.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = erluan.CalculatorApp;
+				PRODUCT_BUNDLE_IDENTIFIER = erluan.CalculatorApp.erluan.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
